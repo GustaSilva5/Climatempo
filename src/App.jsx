@@ -22,7 +22,7 @@ async function searchCity(){
 
   return (
     <div>
-      <h1>DevClub Previsão do tempo</h1>
+      <h1>Previsão do tempo</h1>
       <input ref={inputRef} type="text" placeholder='Digite o nome da cidade'/>
       <button onClick={searchCity}>Buscar</button>
 
